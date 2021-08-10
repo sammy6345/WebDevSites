@@ -1,0 +1,30 @@
+/* Style the header */
+.header {
+  padding: 0px 20px;
+  background: #1787ff90;
+  color: #f1f1f1;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+position: fixed;
+top: 0;
+width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+padding-top: 82px;
+}
+.image_center {
+    margin: 0px auto 20px;
+    display: block
+} 
+.site-title {
+    text-align: center;
+}
